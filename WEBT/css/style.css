@@ -1,0 +1,421 @@
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+::-webkit-scrollbar-corner {
+    opacity: 100;
+    filter: alpha(opacity=100);
+}
+
+.clear {clear:both;}
+
+body {
+    font-family:sans-serif;
+}
+
+.TTT {
+    box-sizing: border-box;
+}
+
+.TT{
+    float: left;
+    width: 30.33333%;
+    min-width: 100px;
+    padding: 10px;
+    color: #696D6E;
+}
+
+.TT h1 {
+    text-transform: uppercase;
+}
+
+.TT p:first-line{
+    text-align: left;
+}
+.TT p{
+    color: #A3A3A3;
+    text-align: center;
+    max-height: 100px;
+    overflow: scroll;
+    line-height: 20px;
+}
+.slider {
+    top: 0px;
+    margin: 0px;
+    height: 400px;
+    background:url(/img/header.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.slider button {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.slider button:hover {
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.slider button:active {
+    margin-top: 2px;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.header .bar {
+    overflow:hidden;
+    background: #252F31;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    border: none
+}
+
+.header .bar h2{
+    font-family: 'Merienda', cursive;
+    float: left;
+    
+}
+
+.header .bar h2 .logo{
+    font-family:sans-serif;
+    background: #555;
+    margin-right: 10px;
+    padding: 0px 5px;
+    font-weight: bold;
+    border-radius: 4px
+}
+
+.header .bar h2 .tc {
+    color: #55efc4;
+}
+
+
+.header .bar ul {
+    font-family: 'Viga', sans-serif;
+    list-style: none;
+    text-transform: uppercase;
+    float:right;
+}
+
+.header .bar ul li {
+    float:right;
+    padding: 10px;
+}
+
+.header .bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .bar a:hover {
+    color: #55efc4;
+}
+
+.AcPage {
+    color: #55efc4;
+}
+.header .slider .container .intro {
+    text-align: center;
+    padding-top: 15%
+}
+.header .slider .container .intro h1 {
+    padding: 3px;
+    color: #fff;
+    margin: 0 auto;
+    width: 600px;
+    text-shadow: 2px 2px 10px #555;
+    font-size: 50px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.mid {
+    overflow: hidden;
+    background: #f2f2f2;
+    min-width: 50%;
+}
+
+.mid .img {
+    height: 65%;
+    width: 35%;
+    min-width: 279px;
+    float: left;
+}
+
+.mid .info {
+    background: #f2f2f2;
+    text-align: left;
+    margin-left: 34%;
+    padding-top: 3%;
+    line-height: 25px;
+}
+
+.mid .info h1 {
+    color: #535353;
+}
+
+.infoul {
+    width: 100%;
+    margin: 0px;
+    background: #f2f2f2;
+}
+
+.mid .info p ,.resu p{
+    color: #939393;
+}
+
+.mid .infoul .table {
+    float: left;
+    width: 50%;
+    color: #696D6E;
+    line-height: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.mid .infoul .table .icons {
+    float: left;
+    width: 10%;
+    margin-right: 5%;
+}
+
+.mid .infoul .table .icons i {
+    margin-top: 20px;
+    color: #51e1c1;
+}
+
+.mid .infoul .table .text {
+    float: left;
+    width: 80%;
+}
+
+.mid .info div p {
+    line-height: 20px;
+    overflow: scroll;
+    max-height: 100px;
+}
+
+.Bmid ,.B2mid {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Bmid .left ,.B2mid .left {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+.Bmid .left .line {
+    margin-top: 50px;
+}
+
+.Bmid h2, .resu ,.B2mid h2, .B2mid h3 {
+    color: #535353;
+}
+.Bmid p,.B2mid p {
+    color: #939393;
+    letter-spacing: 2px;
+}
+
+.Bmid .left button, .resu button, .B2mid button {
+    background: none;
+    border: 1px solid #55efc4;
+    color: #51e1c1;
+    padding: 5px;
+}
+
+.Bmid .left button:hover, .resu button:hover, .B2mid button:hover {
+    background: #51e1c1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Bmid .left button:active, .resu button:active, .B2mid button:active {
+    background: #21c4a1;
+}
+.Bmid .right h2 {
+    font-size: 22px;
+}
+.Bmid .right .progress h3{
+    color: #535353;
+    font-size: 18px;
+}
+
+.Bmid .right .progress div{
+    background: #f2f2f2;
+    height: 25px;
+    width: 50%;
+    margin-left: 52%;
+}
+.Bmid .right .progress span{
+    height: 25px;
+    display: block;
+    background: #21c4a1;
+    color: #fff;
+    text-align: right;
+    line-height: 25px;
+}
+.resu {
+    margin-top: 30px;
+    background: #f2f2f2;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+.resu button {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.B2mid .right {
+    width: 40%;
+    padding-top: 30px;
+    float: left;
+}
+.B2mid .right p {
+    line-height: 15px;
+}
+
+.B2mid .right a {
+    background: #51e1c1;
+    color: #fff;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.B2mid .right hr {
+    margin-top: 5%;
+    border: 0.5px solid #d9d9d9;
+}
+
+bold {
+    font-weight: 500;
+}
+
+.h2 {
+    color: #535353;
+}
+
+.p {
+    color: #939393;
+}
+.someimg {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.someimg .imgs img{
+    height: 350px;
+    width: 30%;
+    float: left;
+    margin: 10px -10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.someimg .imgs .mimg{
+    margin-right: 10px;
+}
+
+.someimg .imgs .limg{
+    margin-right: -20px;
+}
+
+.info2 {
+    background: #252F31;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 20px
+}
+
+.info2 .contact {
+    width: 45%;
+    float: left;
+}
+
+.info2 .sp {
+    margin-right: 20px;
+    font-size: smaller;
+}
+
+.info2 form {
+    padding: 40px;
+    margin-left: 50%;
+    min-width: 80px;
+}
+.info2 form label{
+    font-size: smaller;
+    margin: 20px 0px -10px;
+    display: block;
+}
+.info2 form input,.info2 form textarea {
+    width: 100%;
+    color: #fff;
+    background: #4B5556;
+    border: none;
+}
+.info2 form textarea {
+    height: 400px
+}
+.info2 form input.submit {
+    width: 200px;
+    background: #22292b;
+    padding: 5px
+}
+
+.info2 form input.submit:hover {
+    width: 200px;
+    background: #16191A;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background: #16191A;
+    color: #939393;
+    text-align: center;
+    padding-top: 15px;
+    overflow: hidden
+}
+
+.footer span {
+    display: block;
+}
+.footer ul{
+    list-style: none;
+    margin-left: 43%;
+    padding-bottom: 10px;
+}
+.footer ul li{
+    float:left;
+    padding-left: 5px;
+}
+.footer ul i:hover{
+    color: #fff;
+    cursor: pointer;
+}
